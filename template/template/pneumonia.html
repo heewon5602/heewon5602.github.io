@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Heewon's JobSeeking</title>
+        <meta charset="utf-8">
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    
+    <body class="subpage">
+
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <a href="index.html">Portfolio <span>by Heewon Kim</span></a>
+        </div>
+        <a href="#menu" class="toggle"><span>Menu</span></a>
+    </header>
+    
+    <!-- Nav -->
+    <nav id="menu">
+        <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li>
+                <a href="#">Careers</a>
+                <ul class="links">
+                    <li><a href="moodang.html"> - Moodang Odyssey</a></li>
+					<li><a href="festival.html"> - Festival Finder</a></li>
+					<li><a href="cost_alarm.html"> - AWS Cost Alarm</a></li>
+					<li><a href="chatbot.html"> - Chatbot</a></li>
+					<li><a href="book_store.html"> - Book Store</a></li>
+					<li><a href="break_the_delivery.html"> - Break the Delivery</a></li>
+					<li><a href="pneumonia.html"> - AI Pneumonia</a></li>
+                </ul>
+            </li> 
+            <li><a href="generic.html">Generic</a></li>
+            <li><a href="elements.html">Elements</a></li>
+        </ul>
+    </nav>
+    
+    <!-- One -->
+    <section id="one" class="wrapper style2">
+        <div class="inner">
+            <div class="box">
+                <div class="content">
+                    <header class="align-center">
+                        <h2>AI Pneumonia</h2>
+                        <p>흉부 x-ray 사진을 통해 자동적으로 폐렴을 진단해주는 폐렴 진단 딥러닝 모델</p>
+                    </header>
+
+                    <hr>
+                    <div class="image fit">
+                        <img src="images/pneumonia.png" alt="" width="3472" height="auto">
+                    </div>
+    
+                    <p> 
+                        <h4>Duration</h4>
+                        <blockquote>10 days (2023.11.08 - 2023.11.18)</blockquote>
+                    </p>
+                    <p>
+                        <h4>Tech Stack</h4>
+                        <blockquote> Google colaboratory, Python, DenseNet-161, CNN </blockquote>
+                    </p>
+                    <p>
+                        <h4>Description</h4>
+                        
+                        <blockquote>
+                            Convolution Network 중 하나인 DenseNet-161을 사용해 딥러닝 모델을 구축하고 
+                            클래스 가중치를 계산하여 데이터셋을 학습 및 검증 데이터셋으로 분류해준다. <br>
+                            DenseNet-161의 가중치를 고정해주고 training을 시킨 후, 모델 컴파일을 위하여 
+                            손실함수, optimizer 및 학습률 scheduler를 설정해 헬퍼 함수를 정의한다. <br>
+                            위의 과정을 통해 검증 손실이 개선되고 최고의 model로 업데이트가 된다. <br>
+                            최종적으로 테스트를 진행하면 학습된 데이터를 바탕으로 흉부 x-ray 사진에서 pneumonia가 
+                            관찰되는지 결과값을 도출해 볼 수 있다.
+
+                        </blockquote> 
+
+                        <h4>Demonstraton Video</h4>
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Four -->
+    <section id="four" class="wrapper style3">
+        <div class="inner">
+            <header class="align-center">
+                <h2>Morbi interdum mollis sapien</h2>
+                <p>Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada. Praesent in sem ex. Morbi mattis sapien pretium tellus venenatis, at egestas urna ornare.</p>
+            </header>
+        </div>
+    </section>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script><script src="assets/js/jquery.scrolly.min.js"></script><script src="assets/js/jquery.scrollex.min.js"></script><script src="assets/js/skel.min.js"></script><script src="assets/js/util.js"></script><script src="assets/js/main.js"></script></body></html>
